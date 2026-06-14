@@ -62,45 +62,25 @@ The warehouse follows a classic three-layer Medallion Architecture, ingesting da
 
 ## 🗂️ Repository Structure
 sql-data-warehouse-project/
-
 │
-
-├── datasets/                   # Raw source data (CRM and ERP CSV files)
-
+├── datasets/          # Raw source data (CRM and ERP CSV files)
 │
-
-├── docs/                       # Project documentation and architecture assets
-
+├── docs/              # Project documentation and architecture assets
 │   ├── data_architecture.drawio
-
 │   ├── data_flow.drawio
-
 │   ├── data_models.drawio
-
 │   ├── etl.drawio
-
 │   ├── data_catalog.md
-
 │   └── naming-conventions.md
-
 │
-
 ├── scripts/
-
-│   ├── bronze/                 # Raw ingestion scripts
-
-│   ├── silver/                 # Cleansing and transformation scripts
-
-│   └── gold/                   # Star schema views and analytical models
-
+│   ├── bronze/        # Raw ingestion scripts
+│   ├── silver/        # Cleansing and transformation scripts
+│   └── gold/          # Star schema views and analytical models
 │
-
-├── tests/                      # Data quality and validation scripts
-
+├── tests/             # Data quality and validation scripts
 │
-
 └── README.md
-
 
 ---
 
