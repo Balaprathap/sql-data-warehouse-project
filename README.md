@@ -6,7 +6,7 @@ A end-to-end data warehousing project built with SQL Server, implementing the **
 
 ## 📐 Architecture Overview
 
-![Data Architecture](docs/data_architecture.png)
+![Data Architecture](docs/Architecture.drawio.png)
 
 The warehouse follows a classic three-layer Medallion Architecture, ingesting data from **CRM** and **ERP** source systems and progressively refining it until it is ready for consumption.
 
