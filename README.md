@@ -61,6 +61,7 @@ The warehouse follows a classic three-layer Medallion Architecture, ingesting da
 ---
 
 ## 🗂️ Repository Structure
+```
 sql-data-warehouse-project/
 │
 ├── datasets/          # Raw source data (CRM and ERP CSV files)
@@ -81,6 +82,7 @@ sql-data-warehouse-project/
 ├── tests/             # Data quality and validation scripts
 │
 └── README.md
+```
 
 ---
 
